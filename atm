@@ -1,0 +1,9 @@
+#!/bin/bash
+# this is a file to check the existenence of a file inside a dir
+
+if [[ -f /Users/rupesh/training/money ]]
+then
+echo "file exists"
+else
+echo "no such file or directory"
+fi
